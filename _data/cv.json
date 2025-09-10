@@ -1,67 +1,133 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Abderrahim AKHROUF",
+    "email": "abderrahim.akhrouf@etu.univ-amu.fr",
+    "phone": "07 59 30 03 37",
+    "website": "",
+    "summary": "Candidat vacataire d’enseignement – Doctorant en mécanique des fluides",
     "location": {
-      "address": "",
-      "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
-      "region": ""
+      "address": "25 rue Honnorat",
+      "postalCode": "13003",
+      "city": "Marseille",
+      "countryCode": "FR",
+      "region": "Provence-Alpes-Côte d'Azur"
     },
     "profiles": [
       {
-        "network": "Google Scholar",
+        "network": "GitHub",
         "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+        "url": "https://github.com/skarwech"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "",
+        "url": "https://www.linkedin.com/in/akhroufabderrahim/"
       },
       {
         "network": "ORCID",
         "username": "",
-        "url": "http://orcid.org/yourorcidurl"
+        "url": "https://orcid.org/my-orcid?orcid=0009-0006-0025-1899"
       },
       {
-        "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "network": "Google Scholar",
+        "username": "",
+        "url": "https://scholar.google.com/citations?user=IgQZaEMAAAAJ&hl=fr"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "position": "Doctorant (Thèse académique, financement région PACA)",
+      "institution": "Université de Aix-Marseille, Laboratoire de mécanique et d'acoustique & FLUIIDD",
+      "location": "Marseille/La Ciotat, France",
+      "startDate": "2025",
+      "endDate": "",
+      "summary": "Optimisation de la consommation des pompes électriques par l’intelligence artificielle et la tomographie par impédance électrique.",
+      "supervisors": ["Cédric BELLIS", "Mathieu DARNAJOU", "Guillaume RICCIARDI"]
+    },
+    {
+      "position": "Stage de recherche en intelligence artificielle",
+      "institution": "Adservio Group",
+      "location": "Puteaux, France",
+      "startDate": "2024",
+      "endDate": "2024",
+      "summary": "Élaboration d'un algorithme de conduite autonome à base de modèles de langues implémenté sur simulateur CARLA.",
+      "supervisors": ["Hedi TABIA"]
+    },
+    {
+      "position": "Stage de recherche de Théorie de contrôle",
+      "institution": "INRIA Paris-Saclay & Laboratoire de commande des processus",
+      "location": "Alger, Algérie",
+      "startDate": "2023",
+      "endDate": "2023",
+      "summary": "Estimation du flux sanguin artériel à base de fonctions modulatrices.",
+      "supervisors": ["Pr. Taous-Meriem LALEG", "Pr. Zehor BELKHATIR", "Dr. Messaoud CHAKIR"]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2018",
+      "institution": "Université de Aix-Marseille, Laboratoire de mécanique et d'acoustique & FLUIIDD",
+      "area": "Doctorat en mécanique des fluides",
+      "studyType": "Doctorat",
+      "startDate": "2025",
+      "endDate": "",
+      "gpa": null,
+      "courses": [],
+      "subject": "Optimisation de la consommation des pompes électriques par l’intelligence artificielle et la tomographie par impédance électrique",
+      "supervisors": ["Cédric BELLIS", "Mathieu DARNAJOU", "Guillaume RICCIARDI"]
+    },
+    {
+      "institution": "Université Paris-Saclay",
+      "area": "Systèmes automatiques mobiles",
+      "studyType": "Master 2",
+      "startDate": "2023",
+      "endDate": "2024",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
+      "institution": "École Nationale Polytechnique",
+      "area": "Ingéniorat et Master 2 en Automatique",
+      "studyType": "Ingéniorat/Master 2",
+      "startDate": "2020",
+      "endDate": "2023",
       "gpa": null,
       "courses": []
     },
     {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
+      "institution": "École Nationale Polytechnique",
+      "area": "Classes préparatoires en science et technologie",
+      "studyType": "Prépa",
+      "startDate": "2018",
+      "endDate": "2020",
       "gpa": null,
       "courses": []
     }
   ],
-  "skills": [],
-  "languages": [],
+  "skills": [
+    {
+      "name": "Langages de programmation",
+      "keywords": ["Python", "C", "C++", "MATLAB"]
+    },
+    {
+      "name": "Intelligence Artificielle",
+      "keywords": ["Machine Learning", "Deep Learning", "Reinforcement Learning", "Natural Language Processing"]
+    },
+    {
+      "name": "Logiciels de simulation",
+      "keywords": ["Simulink", "CARLA"]
+    },
+    {
+      "name": "Outils bureautiques",
+      "keywords": ["PackOffice", "LaTeX"]
+    }
+  ],
+  "languages": [
+    {"language": "Français", "fluency": "Courant TCF C1"},
+    {"language": "Anglais", "fluency": "Courant CEFR C1+"},
+    {"language": "Arabe", "fluency": "Langue maternelle"},
+    {"language": "Italien", "fluency": "Débutant Niveau A1"}
+  ],
   "interests": [],
   "references": [],
   "publications": [
