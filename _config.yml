@@ -7,12 +7,12 @@
 # server process.
 
 # Basic Site Settings
-locale                   : "fr-FR"
+locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
-title                    : "Abderrahim / Personal Website"
+title                    : "Abderrahim Akhrouf — Researcher"
 title_separator          : "-"
-name                     : &name "AKHROUF Abderrahim"
-description              : &description "Abderrahim's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "Abderrahim Akhrouf"
+description              : &description "PhD candidate in Fluid Mechanics — optimization of pump energy through AI and electrical impedance tomography"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://skarwech.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -26,7 +26,7 @@ author:
   avatar           : "profile.jpeg"
   name             : "AKHROUF Abderrahim"
   pronouns         : "he/him"
-  bio              : "Control Engineer persuing a PhD in Fluid Mechanics at Aix-Marseille University. I'm working on anomalies detection on time series based on EIT data using Machine Learning and Deep Learning techniques."
+  bio              : "PhD candidate in Fluid Mechanics. I develop machine learning methods and electrical impedance tomography tools to optimize energy consumption in electric pumps."
   location         : "Marseille, France"
   employer         : "Aix-Marseille University"
   uri              : # URL
@@ -135,12 +135,12 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               : &twitter
+  username: "skarwech"
 facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Social media default site image
+og_image                 : images/profile.jpeg  # Social media default site image
 og_description           :  # Social media default site image description
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles

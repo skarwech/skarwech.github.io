@@ -10,7 +10,8 @@
 main:
   - title: "Publications"
     url: /publications/
-
+  - title: "Thesis"
+    url: /thesis/
   # - title: "Talks"
   #   url: /talks/    
 
@@ -28,6 +29,7 @@ main:
     
   - title: "CV"
     url: /cv-json/
+  
     
   # - title: "Guide"
   #   url: /markdown/

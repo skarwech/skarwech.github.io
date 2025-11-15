@@ -4,7 +4,7 @@
     "email": "abderrahim.akhrouf@etu.univ-amu.fr",
     "phone": "07 59 30 03 37",
     "website": "",
-    "summary": "Candidat vacataire d’enseignement – Doctorant en mécanique des fluides",
+    "summary": "PhD candidate in Fluid Mechanics. Research: ML + EIT for electric pump energy optimization",
     "location": {
       "address": "25 rue Honnorat",
       "postalCode": "13003",
@@ -37,48 +37,48 @@
   },
   "work": [
     {
-      "position": "Doctorant (Thèse académique, financement région PACA)",
+      "position": "PhD Candidate (regional-funded thesis)",
       "institution": "Université de Aix-Marseille, Laboratoire de mécanique et d'acoustique & FLUIIDD",
       "location": "Marseille/La Ciotat, France",
       "startDate": "2025",
       "endDate": "",
-      "summary": "Optimisation de la consommation des pompes électriques par l’intelligence artificielle et la tomographie par impédance électrique.",
+      "summary": "Optimizing electric pump energy consumption using machine learning and electrical impedance tomography.",
       "supervisors": ["Cédric BELLIS", "Mathieu DARNAJOU", "Guillaume RICCIARDI"]
     },
     {
-      "position": "Stage de recherche en intelligence artificielle",
+      "position": "Research internship in Artificial Intelligence",
       "institution": "Adservio Group",
       "location": "Puteaux, France",
       "startDate": "2024",
       "endDate": "2024",
-      "summary": "Élaboration d'un algorithme de conduite autonome à base de modèles de langues implémenté sur simulateur CARLA.",
+      "summary": "Design of an autonomous driving algorithm using large language model inspired control approaches on the CARLA simulator.",
       "supervisors": ["Hedi TABIA"]
     },
     {
-      "position": "Stage de recherche de Théorie de contrôle",
+      "position": "Research internship in Control Theory",
       "institution": "INRIA Paris-Saclay & Laboratoire de commande des processus",
       "location": "Alger, Algérie",
       "startDate": "2023",
       "endDate": "2023",
-      "summary": "Estimation du flux sanguin artériel à base de fonctions modulatrices.",
+      "summary": "Arterial blood flow estimation using modulating function methods.",
       "supervisors": ["Pr. Taous-Meriem LALEG", "Pr. Zehor BELKHATIR", "Dr. Messaoud CHAKIR"]
     }
   ],
   "education": [
     {
       "institution": "Université de Aix-Marseille, Laboratoire de mécanique et d'acoustique & FLUIIDD",
-      "area": "Doctorat en mécanique des fluides",
-      "studyType": "Doctorat",
+      "area": "PhD in Fluid Mechanics",
+      "studyType": "PhD",
       "startDate": "2025",
       "endDate": "",
       "gpa": null,
       "courses": [],
-      "subject": "Optimisation de la consommation des pompes électriques par l’intelligence artificielle et la tomographie par impédance électrique",
+      "subject": "Optimizing electric pump energy consumption using machine learning and electrical impedance tomography",
       "supervisors": ["Cédric BELLIS", "Mathieu DARNAJOU", "Guillaume RICCIARDI"]
     },
     {
       "institution": "Université Paris-Saclay",
-      "area": "Systèmes automatiques mobiles",
+      "area": "Mobile Autonomous Systems",
       "studyType": "Master 2",
       "startDate": "2023",
       "endDate": "2024",
@@ -87,8 +87,8 @@
     },
     {
       "institution": "École Nationale Polytechnique",
-      "area": "Ingéniorat et Master 2 en Automatique",
-      "studyType": "Ingéniorat/Master 2",
+      "area": "Engineering & Master 2 in Control Systems",
+      "studyType": "Engineering degree / Master 2",
       "startDate": "2020",
       "endDate": "2023",
       "gpa": null,
@@ -97,7 +97,7 @@
     {
       "institution": "École Nationale Polytechnique",
       "area": "Classes préparatoires en science et technologie",
-      "studyType": "Prépa",
+      "studyType": "Preparatory course",
       "startDate": "2018",
       "endDate": "2020",
       "gpa": null,
@@ -123,10 +123,10 @@
     }
   ],
   "languages": [
-    {"language": "Français", "fluency": "Courant TCF C1"},
-    {"language": "Anglais", "fluency": "Courant CEFR C1+"},
-    {"language": "Arabe", "fluency": "Langue maternelle"},
-    {"language": "Italien", "fluency": "Débutant Niveau A1"}
+    {"language": "French", "fluency": "Fluent (TCF C1)"},
+    {"language": "English", "fluency": "Fluent (CEFR C1+)"},
+    {"language": "Arabic", "fluency": "Native"},
+    {"language": "Italian", "fluency": "Beginner (A1)"}
   ],
   "interests": [],
   "references": [],

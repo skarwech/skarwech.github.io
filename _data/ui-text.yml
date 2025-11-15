@@ -206,7 +206,7 @@ pt: &DEFAULT_PT
   powered_by                 : "Feito por"
   website_label              : "Site"
   email_label                : "E-mail"
-  recent_posts               : "Postagens recentes"
+  recent_posts               : "Recent posts"
   undefined_wpm              : "Parâmetro indefinido em word_per_minute no _config.yml"
   comment_form_info          : "Seu endereço de e-mail não será publicado. Campos obrigatórios são marcados"
   comment_form_comment_label : "Comentário"

@@ -1,9 +1,9 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Abderrahim Akhrouf — Personal website
+This repository hosts my professional academic website. It is built from the Academic Pages Jekyll template and showcases my research (PhD in Fluid Mechanics), publications, and teaching.
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 
-# Getting Started
+# Getting started (developer notes)
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Click the "Use this template" button in the top right.
