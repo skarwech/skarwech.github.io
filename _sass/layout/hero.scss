@@ -1,11 +1,24 @@
 /* Hero/feature styles */
 
 .hero {
-  padding: 3.5rem 1rem;
-  margin-bottom: 1.5rem;
-  border-radius: 0.5rem;
-  background: linear-gradient(160deg, rgba(0,28,51,0.98) 0%, rgba(6,85,126,0.92) 100%);
+  padding: 3.25rem 1.25rem;
+  margin-bottom: 1.75rem;
+  border-radius: 0.75rem;
+  background: linear-gradient(150deg, #052b46 0%, #0d5c7e 55%, #137da3 100%);
   color: #fff;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero:before {
+  content: "";
+  position: absolute;
+  top: -20%;
+  right: -10%;
+  width: 320px;
+  height: 320px;
+  background: radial-gradient(circle at center, rgba(255,255,255,0.18) 0%, rgba(255,255,255,0) 70%);
+  transform: rotate(25deg);
 }
 
 .hero .container {
@@ -13,17 +26,25 @@
 }
 
 .hero__title {
-  font-size: 2.3rem;
-  margin-bottom: 0.25rem;
+  font-size: clamp(2.1rem, 5vw, 2.5rem);
+  margin-bottom: 0.5rem;
   font-weight: 700;
+  letter-spacing: 0.5px;
 }
 
 .hero__subtitle {
-  font-size: 1.05rem;
-  margin-bottom: 1.25rem;
-  opacity: 0.95;
+  font-size: 1.02rem;
+  margin-bottom: 1.35rem;
+  opacity: 0.92;
+  max-width: 52ch;
 }
 
 .hero .btn {
   margin-right: 0.6rem;
+  transition: background-color .25s ease, color .25s ease, transform .25s ease;
+}
+
+.hero .btn:hover,
+.hero .btn:focus {
+  transform: translateY(-3px);
 }
