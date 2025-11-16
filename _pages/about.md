@@ -1,6 +1,8 @@
 ---
 permalink: /
 title: "Abderrahim Akhrouf — PhD in Fluid Mechanics"
+lang: en
+ref: home
 author_profile: true
 redirect_from: 
   - /about/
@@ -21,6 +23,8 @@ feature_row:
     btn_label: "View Academic Path"
 ---
 
+
+{% include lang-switch.html %}
 
 Welcome — I'm Abderrahim Akhrouf, a PhD candidate in Fluid Mechanics. I build machine learning models and apply electrical impedance tomography to improve pump energy efficiency and real-time monitoring. This site highlights my thesis, publications, and experience.
 

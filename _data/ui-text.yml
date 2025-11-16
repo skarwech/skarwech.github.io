@@ -108,29 +108,29 @@ fr: &DEFAULT_FR
   meta_label                 :
   tags_label                 : "Tags :"
   categories_label           : "Catégories :"
-  date_label                 : "Mis à jour :"
+  date_label                 : "Publié :"
   comments_label             : "Laisser un commentaire"
-  comments_title             :
-  more_label                 : "Lire plus"
-  related_label              : "Vous pourriez aimer"
-  follow_label               : "Suivez moi"
+  comments_title             : "Commentaires"
+  more_label                 : "En savoir plus"
+  related_label              : "Vous pourriez aussi aimer"
+  follow_label               : "Suivre :"
   feed_label                 : "Flux"
   powered_by                 : "Propulsé par"
-  website_label              : "Site"
+  website_label              : "Site web"
   email_label                : "Email"
-  recent_posts               : "Posts récents"
-  undefined_wpm              : "Le paramètre words_per_minute n'est pas défini dans _config.yml"
-  comment_form_info          :
-  comment_form_comment_label :
-  comment_form_md_info       :
-  comment_form_name_label    :
-  comment_form_email_label   :
-  comment_form_website_label :
-  comment_btn_submit         :
-  comment_btn_submitted      :
-  comment_success_msg        :
-  comment_error_msg          :
-  loading_label              :
+  recent_posts               : "Articles récents"
+  undefined_wpm              : "Paramètre words_per_minute non défini dans _config.yml"
+  comment_form_info          : "Votre adresse email ne sera pas publiée. Les champs obligatoires sont indiqués"
+  comment_form_comment_label : "Commentaire"
+  comment_form_md_info       : "Markdown est supporté."
+  comment_form_name_label    : "Nom"
+  comment_form_email_label   : "Adresse email"
+  comment_form_website_label : "Site (optionnel)"
+  comment_btn_submit         : "Envoyer"
+  comment_btn_submitted      : "Envoyé"
+  comment_success_msg        : "Merci pour votre commentaire ! Il apparaîtra après validation."
+  comment_error_msg          : "Erreur lors de l'envoi. Vérifiez les champs requis et réessayez."
+  loading_label              : "Chargement..."
 fr-FR:
   <<: *DEFAULT_FR
 fr-BE:

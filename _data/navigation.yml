@@ -22,3 +22,5 @@ main:
     url: /cv-json/
   - title: "Contact"
     url: /contact/
+  - title: "FR"
+    url: /fr/

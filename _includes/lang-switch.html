@@ -1,0 +1,20 @@
+{% comment %}
+Language switcher: link to sibling pages sharing same `ref` with different `lang`.
+Add `ref: some-id` and `lang: en` / `lang: fr` to page front matter for paired pages.
+If `ref` missing, fallback shows site-level EN/FR root links.
+{% endcomment %}
+<div class="lang-switch" aria-label="Language selector">
+  {% assign current_ref = page.ref %}
+  {% assign current_lang = page.lang | default: 'en' %}
+  {% if current_ref %}
+    {% assign siblings = site.pages | where: 'ref', current_ref %}
+    {% for p in siblings %}
+      {% if p.lang %}
+        <a href="{{ p.url | relative_url }}" class="lang-switch__link{% if p.lang == current_lang %} lang-switch__link--active{% endif %}"{% if p.lang == current_lang %} aria-current="page"{% endif %}>{{ p.lang | upcase }}</a>
+      {% endif %}
+    {% endfor %}
+  {% else %}
+    <a href="/" class="lang-switch__link{% if current_lang == 'en' %} lang-switch__link--active{% endif %}"{% if current_lang == 'en' %} aria-current="page"{% endif %}>EN</a>
+    <a href="/fr/" class="lang-switch__link{% if current_lang == 'fr' %} lang-switch__link--active{% endif %}"{% if current_lang == 'fr' %} aria-current="page"{% endif %}>FR</a>
+  {% endif %}
+</div>
