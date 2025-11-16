@@ -7,6 +7,10 @@ author_profile: true
 
 {% include base_path %}
 
+<p>Below are placeholder entries for teaching experiences. Click a card to view full details: institution info, targeted students, and modules taught. Course materials will be linked when available.</p>
+
+<div class="grid__wrapper">
 {% for post in site.teaching reversed %}
-  {% include archive-single.html %}
+  {% include archive-single.html type="grid" %}
 {% endfor %}
+</div>

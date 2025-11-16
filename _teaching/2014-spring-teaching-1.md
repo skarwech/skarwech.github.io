@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 1"
+title: "Teaching Placeholder — Institution A"
 collection: teaching
-type: "Undergraduate course"
-permalink: /teaching/2014-spring-teaching-1
-venue: "University 1, Department"
-date: 2014-01-01
+layout: teaching
+type: "Lecture Series"
+permalink: /teaching/placeholder-institution-a
+venue: "Institution A, Department"
+institution_name: "Institution A"
+institution_url: "https://example.edu"
+date: 2024-10-01
 location: "City, Country"
+audience: "3rd-year undergraduates in Mechanical/Applied Physics"
+modules:
+	- name: "Fluid Mechanics I — Intro to Continuum Mechanics"
+		course_url:
+	- name: "Numerical Methods — Finite Difference and Validation"
+		course_url:
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+A placeholder entry for teaching. Replace with real details (semester, hours, responsibilities). Materials links will be added when available.

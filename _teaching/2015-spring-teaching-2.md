@@ -1,20 +1,20 @@
 ---
-title: "Teaching experience 2"
+title: "Teaching Placeholder — Institution B"
 collection: teaching
-type: "Workshop"
-permalink: /teaching/2015-spring-teaching-1
-venue: "University 1, Department"
-date: 2015-01-01
-location: "City, Country"
+layout: teaching
+type: "Lab / Tutorials"
+permalink: /teaching/placeholder-institution-b
+venue: "Institution B, School of Engineering"
+institution_name: "Institution B"
+institution_url: "https://example.org"
+date: 2025-03-01
+location: "Another City, Country"
+audience: "Master’s students in Data/AI"
+modules:
+	- name: "Machine Learning for Time Series"
+		course_url:
+	- name: "MATLAB for Scientific Computing"
+		course_url:
 ---
 
-This is a description of a teaching experience. You can use markdown like any other post.
-
-Heading 1
-======
-
-Heading 2
-======
-
-Heading 3
-======
+Another placeholder entry detailing practical sessions and assessments. Add syllabus, slides, and notebooks as course materials when ready.

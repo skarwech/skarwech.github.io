@@ -1,14 +1,28 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Abderrahim Akhrouf — PhD in Fluid Mechanics"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+feature_row:
+  - title: "Thesis: ML + EIT"
+    excerpt: "Optimizing electric pump energy consumption with EIT and machine learning."
+    url: "/thesis/"
+    btn_label: "Explore Thesis"
+    btn_class: "btn--primary"
+  - title: "Professional Experience"
+    excerpt: "PhD research and prior AI/control internships."
+    url: "/experience/"
+    btn_label: "View Experience"
+  - title: "Academic Career"
+    excerpt: "PhD and earlier studies — supervisors and subject."
+    url: "/academic/"
+    btn_label: "View Academic Path"
 ---
 
 
-Welcome — I'm Abderrahim Akhrouf, a PhD candidate in Fluid Mechanics. I build machine learning models and apply electrical impedance tomography to improve pump energy efficiency and real-time monitoring. On this site you'll find research summaries, publications, teaching materials, a curated CV, and datasets associated with the thesis.
+Welcome — I'm Abderrahim Akhrouf, a PhD candidate in Fluid Mechanics. I build machine learning models and apply electrical impedance tomography to improve pump energy efficiency and real-time monitoring. This site highlights my thesis, publications, and experience.
 
 <div class="hero">
   <div class="container">
@@ -20,35 +34,45 @@ Welcome — I'm Abderrahim Akhrouf, a PhD candidate in Fluid Mechanics. I build 
   </div>
 </div>
 
-Featured — Thesis and Research
-------------------------------
+<div class="affiliations" aria-label="Affiliations">
+  <a class="badge badge--logo" href="https://www.univ-amu.fr/en" target="_blank" rel="noopener" aria-label="Aix-Marseille University">
+    <img src="{{ '/images/affiliations/amu.svg' | relative_url }}" alt="Aix-Marseille University logo" />
+    <span>Aix-Marseille University</span>
+  </a>
+  <a class="badge badge--logo" href="https://www.lma.cnrs-mrs.fr/" target="_blank" rel="noopener" aria-label="Laboratory of Mechanics and Acoustics, CNRS">
+    <img src="{{ '/images/affiliations/lma.svg' | relative_url }}" alt="LMA (CNRS) logo" />
+    <span>LMA (CNRS)</span>
+  </a>
+  <a class="badge badge--logo" href="https://www.fluiidd.fr/" target="_blank" rel="noopener" aria-label="FLUIIDD">
+    <img src="{{ '/images/affiliations/fluiidd.svg' | relative_url }}" alt="FLUIIDD logo" />
+    <span>FLUIIDD</span>
+  </a>
+</div>
 
-My doctoral research focuses on optimizing electric pump operation using data-driven control with EIT-based sensing and advanced ML models. If you're interested in the project, click the `Thesis` link in the top menu for the abstract, key results, and downloadable resources.
+{% include feature_row %}
 
-Recent work and tools
----------------------
+### Latest Publication
+{% assign latest_pub = site.publications | sort: 'date' | last %}
+{% if latest_pub %}
+<div class="archive__item" style="margin-top: 0.5rem;">
+  <div class="archive__item-body">
+    <h2 class="archive__item-title" style="margin-bottom: .25rem;">
+      <a href="{{ latest_pub.url | relative_url }}">{{ latest_pub.title }}</a>
+    </h2>
+    {% if latest_pub.venue %}<p style="margin: 0 0 .25rem 0;">{{ latest_pub.venue }}</p>{% endif %}
+    {% if latest_pub.excerpt %}<p style="margin: 0 0 .5rem 0;">{{ latest_pub.excerpt }}</p>{% endif %}
+    {% if latest_pub.paperurl %}<a class="btn btn--primary" href="{{ latest_pub.paperurl }}" target="_blank" rel="noopener">Read Paper</a>{% endif %}
+  </div>
+  </div>
+{% endif %}
 
-- EIT preprocessing pipeline (open-source Python notebooks) — data cleaning, forward simulation, and reconstruction
-- ML models for anomaly detection and pump optimization — reproducible code and trained models
-- Conference papers and a preprint summarizing results (see `Publications`)
-
-Contact
--------
-
-If you'd like to collaborate or inquire about supervision, email me at: `abderrahim.akhrouf@etu.univ-amu.fr` or connect on LinkedIn.
-
-**Markdown generator**
-
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
-
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
-
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
-
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+### Core Skills
+<p>
+  <span class="btn">Machine Learning</span>
+  <span class="btn">Deep Learning</span>
+  <span class="btn">Reinforcement Learning</span>
+  <span class="btn">Time-series</span>
+  <span class="btn">EIT</span>
+  <span class="btn">Python</span>
+  <span class="btn">MATLAB</span>
+</p>

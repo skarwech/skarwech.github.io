@@ -1,5 +1,5 @@
 # Abderrahim Akhrouf — Personal website
-This repository hosts my professional academic website. It is built from the Academic Pages Jekyll template and showcases my research (PhD in Fluid Mechanics), publications, and teaching.
+This is my personal research hub: PhD in Fluid Mechanics applying electrical impedance tomography and machine learning to optimize electric pump energy efficiency, with publications, teaching, and academic CV. Built on a customized Academic Pages Jekyll foundation.
 
 ![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
 

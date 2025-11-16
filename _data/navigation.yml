@@ -12,6 +12,12 @@ main:
     url: /publications/
   - title: "Thesis"
     url: /thesis/
+  - title: "Experience"
+    url: /experience/
+  - title: "Academic Career"
+    url: /academic/
+  - title: "Teaching"
+    url: /teaching/
   - title: "CV"
     url: /cv-json/
   - title: "Contact"
